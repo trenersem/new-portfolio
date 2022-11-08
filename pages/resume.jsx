@@ -123,7 +123,7 @@ const resume = () => {
             Personal and Group Trainer / BlasFit (2018 – 2021)
           </p>
           <p className="py-1 italic">
-            Nourse/ Dnipro Regional Children's Clinical Hospital (2018)
+            Nourse/ Dnipro Regional Children&apos;s Clinical Hospital (2018)
           </p>
         </div>
 
