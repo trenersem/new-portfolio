@@ -28,7 +28,12 @@ export default function Home() {
           property="og:description"
           content="It's my portfolio, here you can view some of my projects, download my CV and contact me "
         />
-        <meta property="og:image" content="./about.jpg" />
+        <meta
+          property="og:image"
+          content="https://images.unsplash.com/photo-1667332180309-460a6e086142?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=cover&w=1531&q=80"
+        />
+        <meta property="og:image:width" content="263px" />
+        <meta property="og:image:height" content="340px" />
         <meta property="og:url" content="https://portfolio-798ae.web.app/" />
         <meta property="og:site_name" content="Semenov Volodymyr" />
       </Head>
