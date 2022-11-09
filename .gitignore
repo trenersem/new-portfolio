@@ -21,6 +21,7 @@
 .firebase
 .eslintrc.json
 .github
+.firebaserc
 
 # debug
 npm-debug.log*
