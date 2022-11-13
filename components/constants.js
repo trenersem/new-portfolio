@@ -14,6 +14,7 @@ import {
   Typescript,
   Redux,
 } from "../public/assets/skills";
+import { Variants } from "framer-motion";
 
 export const navbarItems = [
   { title: "Home", url: "/" },

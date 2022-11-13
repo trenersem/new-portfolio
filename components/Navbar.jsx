@@ -7,6 +7,8 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import NavLogo from "../public/assets/logo.png";
 import { navbarItems, projects } from "./constants";
 import { useRouter } from "next/router";
+import { motion } from "framer-motion";
+import { descriptionVariants, skillsListVariants } from "./animation";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -49,13 +51,20 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div
+    <motion.div
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300"
           : "fixed w-full h-20 z-[100]"
       }
+      initial={{ opacity: 0 }}
+      animate={{
+        opacity: 1,
+      }}
+      transition={{
+        delay: 0.3,
+      }}
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
@@ -68,18 +77,24 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
+          <motion.ul
+            style={{ color: `${linkColor}` }}
+            className="hidden md:flex"
+            variants={skillsListVariants}
+            initial="hidden"
+            whileInView="visible"
+          >
             {navbarItems.map((item) => (
-              <li key={item.title}>
+              <motion.li key={item.title} variants={descriptionVariants}>
                 <Link
                   href={item.url}
                   className="ml-10 text-sm uppercase hover:border-b"
                 >
                   {item.title}
                 </Link>
-              </li>
+              </motion.li>
             ))}
-          </ul>
+          </motion.ul>
           {/* Hamburger Icon */}
           <div
             style={{ color: `${linkColor}` }}
@@ -182,7 +197,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
