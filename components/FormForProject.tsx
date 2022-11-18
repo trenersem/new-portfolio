@@ -3,7 +3,12 @@ import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { descriptionVariants, itemVariants, listVariants, overviewVariants } from "./animation";
+import {
+  descriptionVariants,
+  itemVariants,
+  listVariants,
+  overviewVariants,
+} from "./animation";
 
 interface Props {
   project: {
@@ -18,7 +23,7 @@ interface Props {
 
 const FormForProject = ({ project }: Props) => {
   return (
-    <div className="w-full">
+    <div className="w-full overflow-x-hidden">
       <div className="w-screen h-[50vh] relative">
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image

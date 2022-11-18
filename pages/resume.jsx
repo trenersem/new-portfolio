@@ -91,9 +91,10 @@ const resume = () => {
             Front End Web Developer & PO (11.2021 - 11.2022)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>Develop new frontend functionality for the product;</li>
             <li>
-              Ensured comprehensive web and mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript. Working with PWA
+              Extend existing components and apps based on requirements;
+              Working with PWA
             </li>
             <li>Increasing functionality</li>
             <li>
