@@ -1,14 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/crypto": "pages/crypto.html",
-  "/halloween": "pages/halloween.html",
-  "/imovie": "pages/imovie.html",
-  "/": "pages/index.html",
-  "/lyricks": "pages/lyricks.html",
-  "/modern": "pages/modern.html",
-  "/plants": "pages/plants.html",
-  "/resume": "pages/resume.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }

@@ -140,7 +140,7 @@ const resume = () => {
           </p>
         </div>
         <div className="w-full flex justify-center items-center">
-          <a href="./Semenov_CV.pdf" download="CV" className="w-[25%]">
+          <a href="./Volodymyr_Semenov_CV.pdf" download="CV" className="w-[25%]">
             <button className=" p-4 text-gray-100 my-10">Download CV</button>
           </a>
         </div>
