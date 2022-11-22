@@ -30,14 +30,14 @@ const Contact = () => {
       className="w-full lg:h-screen"
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, amount: 0.5 }}
+      viewport={{ once: true }}
       transition={{ duration: 0.5 }}
       variants={{
         hidden: { opacity: 0, x: 50 },
         visible: { opacity: 1, x: 0 },
       }}
     >
-      <div className="max-w-[1240px] m-auto px-4 py-16 w-full ">
+      <div className="max-w-[1240px] m-auto px-4 py-16 w-full overflow-x-hidden">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Contact
         </p>
@@ -144,7 +144,8 @@ const Contact = () => {
                       type="text"
                       {...register("phone", {
                         required: true,
-                        pattern:/\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/,
+                        pattern:
+                          /\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/,
                       })}
                     />
                     {errors.phone && (
@@ -215,7 +216,7 @@ const Contact = () => {
                     </p>
                   )}
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4" type="submit">
+                <button className="w-full p-4 text-gray-700 mt-4" type="submit">
                   Send Message
                 </button>
               </form>
