@@ -25,19 +25,21 @@ const Contact = () => {
   };
 
   return (
-    <motion.div
+    <div
       id="contact"
-      className="w-full lg:h-screen"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true }}
-      transition={{ duration: 0.5 }}
-      variants={{
-        hidden: { opacity: 0, x: 50 },
-        visible: { opacity: 1, x: 0 },
-      }}
+      className="w-full lg:h-screen overflow-x-hidden max-w-[100wv]"
     >
-      <div className="max-w-[1240px] m-auto px-4 py-16 w-full overflow-x-hidden">
+      <motion.div
+        className="max-w-[1240px] m-auto px-4 py-16 w-full"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, x: 100 },
+          visible: { opacity: 1, x: 0 },
+        }}
+      >
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Contact
         </p>
@@ -230,8 +232,8 @@ const Contact = () => {
             </div>
           </Link>
         </div>
-      </div>
-    </motion.div>
+      </motion.div>
+    </div>
   );
 };
 

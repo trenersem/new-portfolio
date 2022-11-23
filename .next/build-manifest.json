@@ -5,76 +5,76 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/G3ar_QuLKidj2pPjYIKnq/_buildManifest.js",
-    "static/G3ar_QuLKidj2pPjYIKnq/_ssgManifest.js"
+    "static/wcK-v4KXMKVS4Uvod4M0a/_buildManifest.js",
+    "static/wcK-v4KXMKVS4Uvod4M0a/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack-bb79196dd3767042.js",
+      "static/chunks/webpack-bb3d02c0df294bcc.js",
       "static/chunks/framework-3b5a00d5d7e8d93b.js",
       "static/chunks/main-e66d360acd3fd553.js",
       "static/chunks/d64684d8-bee5b594e9850c24.js",
       "static/chunks/754-246b03214eade615.js",
-      "static/chunks/pages/index-9fecaad7285cacf4.js"
+      "static/chunks/pages/index-09e1559d6293e4c4.js"
     ],
     "/_app": [
-      "static/chunks/webpack-bb79196dd3767042.js",
+      "static/chunks/webpack-bb3d02c0df294bcc.js",
       "static/chunks/framework-3b5a00d5d7e8d93b.js",
       "static/chunks/main-e66d360acd3fd553.js",
-      "static/css/20ce795e779b65f5.css",
+      "static/css/381ee51dd8f31a3a.css",
       "static/chunks/pages/_app-025bfc330d7db547.js"
     ],
     "/_error": [
-      "static/chunks/webpack-bb79196dd3767042.js",
+      "static/chunks/webpack-bb3d02c0df294bcc.js",
       "static/chunks/framework-3b5a00d5d7e8d93b.js",
       "static/chunks/main-e66d360acd3fd553.js",
       "static/chunks/pages/_error-1a1d11da97c04c48.js"
     ],
     "/crypto": [
-      "static/chunks/webpack-bb79196dd3767042.js",
+      "static/chunks/webpack-bb3d02c0df294bcc.js",
       "static/chunks/framework-3b5a00d5d7e8d93b.js",
       "static/chunks/main-e66d360acd3fd553.js",
       "static/chunks/78e521c3-40aecffeb236941e.js",
       "static/chunks/pages/crypto-9062e70d318580cc.js"
     ],
     "/halloween": [
-      "static/chunks/webpack-bb79196dd3767042.js",
+      "static/chunks/webpack-bb3d02c0df294bcc.js",
       "static/chunks/framework-3b5a00d5d7e8d93b.js",
       "static/chunks/main-e66d360acd3fd553.js",
       "static/chunks/78e521c3-40aecffeb236941e.js",
       "static/chunks/pages/halloween-028073a7c43051af.js"
     ],
     "/imovie": [
-      "static/chunks/webpack-bb79196dd3767042.js",
+      "static/chunks/webpack-bb3d02c0df294bcc.js",
       "static/chunks/framework-3b5a00d5d7e8d93b.js",
       "static/chunks/main-e66d360acd3fd553.js",
       "static/chunks/78e521c3-40aecffeb236941e.js",
       "static/chunks/pages/imovie-430cf7c95e1c97e8.js"
     ],
     "/lyricks": [
-      "static/chunks/webpack-bb79196dd3767042.js",
+      "static/chunks/webpack-bb3d02c0df294bcc.js",
       "static/chunks/framework-3b5a00d5d7e8d93b.js",
       "static/chunks/main-e66d360acd3fd553.js",
       "static/chunks/78e521c3-40aecffeb236941e.js",
       "static/chunks/pages/lyricks-8661c5a7daca007d.js"
     ],
     "/modern": [
-      "static/chunks/webpack-bb79196dd3767042.js",
+      "static/chunks/webpack-bb3d02c0df294bcc.js",
       "static/chunks/framework-3b5a00d5d7e8d93b.js",
       "static/chunks/main-e66d360acd3fd553.js",
       "static/chunks/78e521c3-40aecffeb236941e.js",
       "static/chunks/pages/modern-6ef5673b262659fc.js"
     ],
     "/plants": [
-      "static/chunks/webpack-bb79196dd3767042.js",
+      "static/chunks/webpack-bb3d02c0df294bcc.js",
       "static/chunks/framework-3b5a00d5d7e8d93b.js",
       "static/chunks/main-e66d360acd3fd553.js",
       "static/chunks/78e521c3-40aecffeb236941e.js",
       "static/chunks/pages/plants-a55a381ecacd7e43.js"
     ],
     "/resume": [
-      "static/chunks/webpack-bb79196dd3767042.js",
+      "static/chunks/webpack-bb3d02c0df294bcc.js",
       "static/chunks/framework-3b5a00d5d7e8d93b.js",
       "static/chunks/main-e66d360acd3fd553.js",
       "static/chunks/pages/resume-623724c467094df3.js"

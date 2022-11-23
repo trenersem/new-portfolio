@@ -5,19 +5,21 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <motion.div
+    <div
       id="projects"
-      className="w-full"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true }}
-      transition={{ duration: 0.5 }}
-      variants={{
-        hidden: { opacity: 0, x: 50 },
-        visible: { opacity: 1, x: 0 },
-      }}
+      className="w-full  overflow-x-hidden max-w-[100wv]"
     >
-      <div className="max-w-[1240px] mx-auto px-4 py-16 overflow-x-hidden">
+      <motion.div
+        className="max-w-[1240px] mx-auto px-4 py-16 "
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, x: 50 },
+          visible: { opacity: 1, x: 0 },
+        }}
+      >
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>
@@ -33,8 +35,8 @@ const Projects = () => {
             />
           ))}
         </div>
-      </div>
-    </motion.div>
+      </motion.div>
+    </div>
   );
 };
 

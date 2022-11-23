@@ -10,7 +10,10 @@ import {
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full lg:h-screen p-4">
+    <div
+      id="skills"
+      className="w-full lg:h-screen p-4 overflow-x-hidden max-w-[100wv]"
+    >
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Skills
