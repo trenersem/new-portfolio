@@ -38,7 +38,7 @@ const resume = () => {
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
             <p>
-              Web Development <span className="px-1">|</span> Leadership
+              Web Development
               <span className="px-1">|</span> Complex Problem Solving
             </p>
           </div>
@@ -49,11 +49,18 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Diverse analytical skills, team collaboration, and relationship
-          building. Professional and innovative web developer and motivated
-          leader, with solid interpersonal abilities and complex problem-solving
-          skills. Effective and proven track record of critical thinking and
-          idea generation.
+          I am in the business of building responsive UI applications which
+          connect with API’s and other backend technologies. I specialize in
+          front-end development for web3 applications.
+          <br />I am interested in learning new technologies and solving
+          different interesting tasks. Though I am most experienced in building
+          front-end applications using React, having worked with it for the past
+          five years having worked with it for the past five years having worked
+          with it for the past five years, I am a quick learner and can pick up
+          new tech stacks as needed.
+          <br />
+          Deeply passionate about creating visually captivating and intuitive
+          interfaces that enhance user satisfaction.
         </p>
 
         {/* Skills */}
@@ -70,6 +77,7 @@ const resume = () => {
             <span className="px-2">|</span>Web3
             <span className="px-2">|</span> Typescript
             <span className="px-2">|</span>Redux
+            <span className="px-2">|</span>MobX
             <span className="px-2">|</span>Tailwind
             <span className="px-2">|</span>Vite.js
             <span className="px-2">|</span> Cypress
@@ -82,6 +90,79 @@ const resume = () => {
           Professional Experience
         </h5>
         {/* Experience */}
+
+        {/* Tacans Labs */}
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">Tacans Labs</span>
+          </p>
+          <p className="py-1 italic">
+            Middle React Engineer (02.2023 - 08.2023)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Collaborating closely with blockchain engineers and backend
+              developers to seamlessly integrate frontend components with the
+              NEAR, EGLD, and CCD blockchain networks;
+            </li>
+            <li>
+              Implementing responsive and user-friendly interfaces that enabled
+              users to seamlessly trade across multiple blockchains, ensuring a
+              consistent and intuitive experience;
+            </li>
+            <li>
+              Leveraging the capabilities of React to architect and develop
+              intricate functionalities, such as real-time trading updates,
+              cross-chain liquidity pooling, and secure wallet integrations;
+            </li>
+            <li>
+              Adhering to blockchain standards and protocols to ensure the
+              secure handling of transactions, assets, and user data;
+            </li>
+            <li>
+              Effectively managing application state using advanced state
+              management libraries and techniques tailored to the unique
+              challenges of decentralized exchange platforms;
+            </li>
+            <li>
+              Optimizing performance to ensure rapid execution of trades and
+              responsiveness of the user interface, even in a decentralized
+              network environment;
+            </li>
+            <li>
+              Collaborating with design teams to translate complex blockchain
+              concepts into visually engaging interfaces that guided users
+              through the decentralized exchange process;
+            </li>
+          </ul>
+        </div>
+        {/* DevGears Pro */}
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">DevGears Pro</span>
+          </p>
+          <p className="py-1 italic">
+            Front End Web Developer (12.2022 - 02.2023)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Developing high-quality user interfaces using HTML, CSS, and
+              JavaScript, with a focus on modern design and seamless
+              interaction. ;
+            </li>
+            <li>
+              Implementing functionality in accordance with design and
+              requirements using the React library, utilizing a component-based
+              architecture. ;
+            </li>
+            <li>
+              Interacting with the server through APIs to retrieve and send
+              data, ensuring smooth and efficient communication between frontend
+              and backend.;
+            </li>
+          </ul>
+        </div>
+        {/* Cyperflip */}
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">CyperFlip | Tokenframe</span>
@@ -93,8 +174,8 @@ const resume = () => {
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>Develop new frontend functionality for the product;</li>
             <li>
-              Extend existing components and apps based on requirements;
-              Working with PWA
+              Extend existing components and apps based on requirements; Working
+              with PWA
             </li>
             <li>Increasing functionality</li>
             <li>
@@ -140,7 +221,7 @@ const resume = () => {
           </p>
         </div>
         <div className="w-full flex justify-center items-center">
-          <a href="./Volodymyr_Semenov_CV.pdf" download="CV" className="w-[25%]">
+          <a href="./CV.pdf" download="CV" className="w-[25%]">
             <button className=" p-4 text-gray-100 my-10">Download CV</button>
           </a>
         </div>

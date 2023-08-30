@@ -27,7 +27,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full lg:h-screen overflow-x-hidden max-w-[100wv]"
+      className="w-ful max-w-[100wv]"
     >
       <motion.div
         className="max-w-[1240px] m-auto px-4 py-16 w-full"

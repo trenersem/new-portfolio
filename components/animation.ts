@@ -1,10 +1,10 @@
 import { Variants } from "framer-motion";
 
 export const listVariants: Variants = {
-  hidden: { scale: 0, opcity: 0},
+  hidden: { scale: 0, opcity: 0 },
   visible: {
     scale: 1,
-		opcity: 1,
+    opcity: 1,
     transition: {
       when: "beforeChildren",
       staggerChildren: 0.2,

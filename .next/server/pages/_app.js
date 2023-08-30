@@ -71,11 +71,7 @@ const Navbar = () => {
   } = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)("fixed");
   const router = (0,next_router__WEBPACK_IMPORTED_MODULE_8__.useRouter)();
   (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(() => {
-    if (_constants__WEBPACK_IMPORTED_MODULE_7__/* .projects.find */ .q.find(project => project.url === router.asPath) // router.asPath === "/property" ||
-    // router.asPath === "/crypto" ||
-    // router.asPath === "/netflix" ||
-    // router.asPath === "/twitch"
-    ) {
+    if (_constants__WEBPACK_IMPORTED_MODULE_7__/* .projects.find */ .q.find(project => project.url === router.asPath)) {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");
     } else {

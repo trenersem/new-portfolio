@@ -22,10 +22,6 @@ const Navbar = () => {
   useEffect(() => {
     if (
       projects.find((project) => project.url === router.asPath)
-      // router.asPath === "/property" ||
-      // router.asPath === "/crypto" ||
-      // router.asPath === "/netflix" ||
-      // router.asPath === "/twitch"
     ) {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");
